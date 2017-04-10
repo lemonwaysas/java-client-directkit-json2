@@ -34,6 +34,3 @@ The example is only the basic, you can also play with our API by calling other s
 - [Transfer money from wallet to a bank account](http://documentation.lemonway.fr/api-en/directkit/money-out-debit-a-wallet-and-credit-a-bank-account/moneyout-external-fund-transfer-from-a-wallet-to-a-bank-account)
 - [Transfer money from wallet to other wallet](http://documentation.lemonway.fr/api-en/directkit/p2p-transfer-between-wallets/sendpayment-on-us-payment-between-wallets)
 
-# Note
-
-* The code use a JSON jar to create a JSONObject and send it to the direct kit and read it from the direct kit
