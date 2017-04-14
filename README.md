@@ -9,7 +9,10 @@ This tutorial show how simple it is.
 
 ```java
 LemonWayService service = new LemonWayService("society", "123456");
-GetWalletDetailsTest(service);
+Map<String, String> param = new HashMap<String, String>() {{
+    put("wallet", "9999");
+}};
+JSONObject response = service.callService("GetWalletDetails", param);
 ```
 See also: [LemonWay API documentation](http://documentation.lemonway.fr/) / method [`GetWalletDetails`](http://documentation.lemonway.fr/api-en/directkit/manage-wallets/getwalletdetails-getting-detailed-wallet-data)
 
