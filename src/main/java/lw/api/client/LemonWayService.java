@@ -19,7 +19,7 @@ public class LemonWayService {
 	// private Map<String, String> params;
 	private String login;
 	private String password;
-	final String DIRECTKIT_JSON2 = "https://sandbox-api.lemonway.fr/mb/hiep/dev/directkitjson2/Service.asmx";
+	final String DIRECTKIT_JSON2 = "https://sandbox-api.lemonway.fr/mb/demo/dev/directkitjson2/Service.asmx";
 	final private String version = "1.8";
 	final private String ua = getUa();
 
